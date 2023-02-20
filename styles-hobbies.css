@@ -1,0 +1,95 @@
+html{
+    background-color: rgba(174, 201, 250, 0.5);}
+    
+    #image-gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 5%;
+    }
+    
+    h1{
+    text-align: center;
+    font-family: 'Oswald';
+    font-weight: 700;
+    text-decoration: underline;
+    }
+
+    h2{
+    text-align: center;
+    font-family: 'Oswald';
+    font-weight: 400;    
+    }
+    
+    img{
+    width: 400px; height: 350px;
+    }
+    
+    h3{
+    text-align: center;
+    font-family: 'Oswald';
+    font-weight: 400;
+    color: black
+    }
+    
+    figure{
+    text-align: center;
+    }
+    
+    figcaption{
+    font-style: italic;
+    font-size: .75em;
+    font-family: 'Oswald';
+    color: black
+    }
+    
+    .grid-item{
+    border-style: solid;
+    border-color: #007bff;
+    padding: 5px;
+    border-radius: 15px;
+    }
+
+    .button-container{
+    text-align: center;
+    padding: 10px
+    }
+
+    .button-link-1, .button-link-2, .button-link-3{
+    display: inline-block;
+    padding: 10px;
+    background-color: #007bff;
+    color: black;
+    text-decoration: underline;
+    border: 2px solid black;
+    border-radius: 14px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+
+    .inspiration-document{
+    text-align: left;
+    padding: 10px;
+    }
+
+    address{
+    font-family: 'Oswald';
+    text-align: center;
+    }
+
+    address a { 
+    font-size: 16pt;
+    color: black
+    text-decoration: none
+    }
+    
+    address a:hover {
+    text-decoration: underline;
+    background-color: #007bff;
+    }
+    
+    address a:visited {
+    color: #3c275a;}
+
+    #footer{
+    text-align: center;
+    }
